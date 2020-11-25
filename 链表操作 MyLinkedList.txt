@@ -169,6 +169,11 @@ public boolean IndexLawful(int index){ //判断index（位置）是否合法
             }
         }
 
+  public void CleanLinkedList(){
+        this.head=null;           //将头节点置为空，则后续节点都没有被引用，系统会自动回收
+        }
+
+
 
 
 
